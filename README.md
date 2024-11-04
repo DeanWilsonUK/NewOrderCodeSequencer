@@ -15,7 +15,9 @@ Demo Video 2 - https://www.youtube.com/watch?v=F0nwzTGFUaU
 //Getting Started
 
 To use this project, you'll need:
+
 - Processing IDE: The sketch is written in Processing, so you'll need the Processing IDE to run it.
+- MidiBus Library: This sketch requires the MidiBus library for MIDI communication. Install it via Processing by navigating to Sketch > Import Library > Add Library and searching for "MidiBus".
 - MIDI Device: This sketch triggers MIDI notes, which requires a Digital Audio Workstation (DAW) or any MIDI-capable software to generate sounds from these notes.
 
 //Setup Instructions
@@ -28,11 +30,15 @@ To use this project, you'll need:
 A few adjustments may be needed based on your setup:
 
 - MIDI Device Name: The script references a specific MIDI device. If you're using a different device, you’ll need to update the device name in the code. To find your device’s name, use the printArray(MidiBus.list()); function within Processing, which will display a list of available devices in the console.
-- Playback Speed: This can be modified in the script if you prefer different playback speeds. Refer to the MIDI controller instructions in the code comments.
+- Playback Speed: This can be modified in the script if you prefer different playback speeds. Refer to the instructions in the code comments.
 
 //Note on Sound Generation
 
 This script solely triggers MIDI notes; to produce sound, a DAW or other MIDI-enabled software is required. Connect your MIDI device to your DAW and set up an instrument channel to hear the notes played by the sketch.
+
+//MIDI Note Sequence
+
+The sketch uses the Decatonic scale starting at C4, and each character in the sequence corresponds to a note from this scale. The default MIDI notes are {60, 62, 63, 65, 66, 67, 68, 69, 70, 71}.
 
 //Fair Use and Attribution
 
