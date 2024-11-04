@@ -3,6 +3,7 @@
 Substitution Cipher MIDI Instrument
 
 //Overview
+
 This project is a unique MIDI instrument inspired by the substitution cipher used by Peter Saville for the band New Order’s iconic Blue Monday 12-inch sleeve design. A video by @DistortThePreamp delves into the details of this cipher, sparking the idea behind this interactive sketch.
 
 In essence, this sketch allows users to type text, which then generates MIDI notes that correspond to each character in the substitution cipher. These notes can be played back in sequence, and the playback speed can be controlled to create unique musical experiences. For a demonstration, check out the project videos on YouTube:
@@ -30,8 +31,10 @@ A few adjustments may be needed based on your setup:
 - Playback Speed: This can be modified in the script if you prefer different playback speeds. Refer to the MIDI controller instructions in the code comments.
 
 //Note on Sound Generation
+
 This script solely triggers MIDI notes; to produce sound, a DAW or other MIDI-enabled software is required. Connect your MIDI device to your DAW and set up an instrument channel to hear the notes played by the sketch.
 
 //Fair Use and Attribution
+
 This project is shared under the MIT license for non-commercial use. Feel free to use and modify this code, but please credit the original author. Be kind and share any improvements or creative adaptations you make!
 
